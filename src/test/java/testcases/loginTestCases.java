@@ -37,7 +37,7 @@ public class loginTestCases extends baseClass {
 
 	}
 
-	// to test when passing blank email during login
+	// to test when passing blank email during login(invalid data)
 	@Test(priority = 2)
 	public void verifyLoginWithInvalidData() throws IOException, InterruptedException {
 
