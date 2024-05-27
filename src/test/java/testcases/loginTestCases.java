@@ -13,6 +13,11 @@ import resources.testData;
 
 public class loginTestCases extends baseClass {
 
+//testcase1:
+
+	//testcase with valid data
+
+
 	@Test(priority = 1)
 
 	public void verifyLoginWithValidData() throws IOException, InterruptedException {
@@ -37,7 +42,7 @@ public class loginTestCases extends baseClass {
 
 	}
 
-	// to test when passing blank email during login
+	// to test when passing blank email during login(invalid data)
 	@Test(priority = 2)
 	public void verifyLoginWithInvalidData() throws IOException, InterruptedException {
 
